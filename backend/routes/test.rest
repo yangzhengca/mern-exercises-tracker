@@ -1,0 +1,22 @@
+POST http://localhost:5000/users/add
+Content-Type: application/json
+
+{
+    "username":"Bob"
+}
+
+####
+
+GET http://localhost:5000/users
+
+
+####
+POST http://localhost:5000/exercises/add
+Content-Type: application/json
+
+{
+    "username":"Bob",
+    "description":"ride b",
+    "duration":10,
+    "date":"2021-07-02T20:36:02.938Z"
+}
